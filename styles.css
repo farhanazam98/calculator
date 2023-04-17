@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+
+.display{
+    height: 100px;
+    background-color: lightgray;
+    margin: 10px;
+    font-size: 4em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-right: 10px ;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    border-radius: 8px;
+}
+
+
+.row{
+    margin: 0 10px;
+}
+
+.final{
+    margin-bottom: 10px;
+}
+
+.operator{
+    background-color: orange;
+}
+
+.digit{
+    background-color: #217c7e;
+}
+
+.equal, .clear{
+    background-color: dodgerblue;
+}
